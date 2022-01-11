@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_marginTop="300px"
+        android:gravity="center"
+        android:text="Ma petite bibliotheque"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAfficher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir la bibliotheque" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un livre" />
+
+    <Button
+        android:id="@+id/btnRechercher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recherche un livre" />
+
+</LinearLayout>
